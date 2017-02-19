@@ -1,0 +1,34 @@
+.main-header{
+    text-align: center;
+    font-family: 'Coiny', regular;
+    background-color: #bdffb6;
+    border-radius: 15px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#kaktus{
+    height: 130px;
+}
+
+#planttest{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-bottom: 4%;
+    font-family: 'Coiny', regular;
+    border: 4px solid #bdffb6;
+    border-radius: 15px;
+}
+
+#submitbutton{
+    width: 250px;
+    height: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 1, 0.4);
+    font-family: 'Coiny', regular;
+    font-size: 18px;
+    background-color: #7eff61;
+    border-radius: 15px;
+    border: none;
+}

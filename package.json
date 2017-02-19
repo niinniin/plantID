@@ -1,0 +1,25 @@
+{
+  "name": "plantid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niinniin/plantID.git"
+  },
+  "author": "Nina Juda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niinniin/plantID/issues"
+  },
+  "homepage": "https://github.com/niinniin/plantID#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "mysql": "^2.13.0",
+    "nodemon": "^1.11.0"
+  }
+}
