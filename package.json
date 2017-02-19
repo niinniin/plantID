@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/niinniin/plantID/issues"
   },
-  "homepage": "https://github.com/niinniin/plantID#readme",
+  "homepage": "https://github.com/niinniin/plantID",
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "^4.14.1",
