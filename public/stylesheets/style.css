@@ -32,3 +32,13 @@
     border-radius: 15px;
     border: none;
 }
+
+.question{
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 1, 0.4);
+}
+
+label{
+    display: inline-block;
+}
+
