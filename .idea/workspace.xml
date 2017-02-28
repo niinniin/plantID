@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3196e69-25aa-4b57-bfd3-ca4b24c1f60e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/PlantID_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partials/result.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PlantID.iml" afterPath="$PROJECT_DIR$/.idea/PlantID.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/dbPlants.js" afterPath="$PROJECT_DIR$/libs/dbPlants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/index.ejs" afterPath="$PROJECT_DIR$/views/pages/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/body.ejs" afterPath="$PROJECT_DIR$/views/partials/body.ejs" />
     </list>
     <ignored path="PlantID.iws" />
@@ -75,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbPlants.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dbPlants.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/dbPlants.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7918552">
+            <state vertical-scroll-proportion="0.0">
               <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
@@ -87,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="body.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="body.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/partials/body.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.49295774">
+              <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -124,11 +114,11 @@
         <option value="$PROJECT_DIR$/routes/route.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/views/pages/index.ejs" />
-        <option value="$PROJECT_DIR$/views/partials/body.ejs" />
         <option value="$PROJECT_DIR$/views/partials/result.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/javascripts/script.js" />
         <option value="$PROJECT_DIR$/libs/dbPlants.js" />
+        <option value="$PROJECT_DIR$/views/partials/body.ejs" />
       </list>
     </option>
   </component>
@@ -505,14 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/body.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.125">
@@ -549,11 +531,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/dbPlants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7918552">
+        <state vertical-scroll-proportion="0.0">
           <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/body.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49295774">
+          <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+          <folding />
         </state>
       </provider>
     </entry>
