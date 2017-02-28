@@ -8,8 +8,6 @@ var app = express();
 
 var bodyparser = bodyParser.urlencoded({ extended: false });
 
-
-
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
@@ -18,32 +16,37 @@ console.log("incoming request");
 // respond with "hello world" when a GET request is made to the homepage
 
 
-
-
 app.get('/', function (req, res) {
 
     console.log('test');
-    var db = require('./libs/dbPlants');
-
-    var plants = db.getPlants(function(err, plants){
-       if(!err) {
-            res.render('pages/index', {plants: plants});
-       }
-       else{
-           console.log('error retreiving data from database');
-       }
-    });
+    res.render('pages/index');
 });
+
 
 app.post('/testsvar', bodyparser, function (req, res) {
-    console.log(req.body.sun);
-    console.log(req.body.water);
-    console.log(req.body.houseplant);
-    console.log(req.body.difficulty);
+    console.log(req.body);
 
-    //res.render('testsvar', {qs: req.query});
+    var db = require('./libs/dbPlants');
+
+    var plants = db.getPlants(req.body,function(err, plants){
+    if(!err) {
+        console.log(plants);
+        res.render('partials/result', {plants: plants});
+    }
+    else{
+        console.log('error retreiving data from database');
+        res.send(null);
+    }
+    });
+
 
 });
+
+
+app.get('/404', bodyparser, function (req, res) {
+    res.render('pages/404');
+});
+
 
 
 app.listen(3000, function () {
