@@ -33,6 +33,24 @@
     border: none;
 }
 
+#returnbutton{
+    width: 250px;
+    height: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 1, 0.4);
+    font-family: 'Coiny', regular;
+    font-size: 18px;
+    background-color: #7eff61;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+}
+
+#return{
+    display: flex;
+    justify-content: center;
+}
+
 .question{
     font-size: 22px;
     text-shadow: 2px 2px 4px rgba(0, 0, 1, 0.4);
@@ -41,4 +59,5 @@
 label{
     display: inline-block;
 }
+
 
