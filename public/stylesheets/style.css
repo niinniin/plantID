@@ -1,6 +1,6 @@
 .main-header{
     text-align: center;
-    font-family: 'Coiny', regular;
+    font-family: 'Press Start 2P', regular;
     background-color: #bdffb6;
     border-radius: 15px;
     padding-bottom: 1%;
@@ -17,8 +17,17 @@
     margin-bottom: 5%;
     padding-bottom: 4%;
     font-family: 'Coiny', regular;
-    border: 4px solid #bdffb6;
-    border-radius: 15px;
+    float: left;
+    border: 10px solid #bdffb6;
+    background: white;
+    position: relative;
+    width: 99%;
+}
+
+#choices{
+    display: block;
+    padding: 25px;
+    overflow: hidden;
 }
 
 #submitbutton{
@@ -59,5 +68,59 @@
 label{
     display: inline-block;
 }
+
+.corner{
+    width: 15px;
+    position: absolute;
+    z-index: 9;
+}
+.tl{
+    top: -10px;
+    left: -10px;
+}
+.tr{
+    top: -10px;
+    right: -10px;
+}
+.bl{
+    bottom: -10px;
+    left: -10px;
+}
+.br{
+    bottom: -10px;
+    right: -10px;
+}
+
+.corner .a{
+    width: 5px;
+    height: 10px;
+    float: left;
+    display: block;
+    background: #fff;
+}
+.corner .b{
+    width: 5px;
+    height: 5px;
+    float: left;
+    display: block;
+    background: #fff;
+}
+.corner .c{
+    width: 10px;
+    height: 10px;
+    float: left;
+    display: block;
+    background: #bdffb6;
+}
+
+.tr .a, .tr .b,
+.tr .c, .br .a,
+.br .b, .br .c{
+    float: right;
+}
+.bl .a,
+.br .a{
+    border-top: 5px solid #bdffb6;
+
 
 
