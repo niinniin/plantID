@@ -1,5 +1,11 @@
- <% plants.forEach(function(plant){ %>
+<div id="visaresult">
+    <% plants.forEach(function(plant){ %>
     <h1><%= plant.name %></h1>
     <h2><%= plant.latin %></h2>
     <h3><%= plant.description %></h3>
-<% }); %>
+    <% }); %>
+</div>
+
+ <div id="return">
+     <input type="submit" value ="Try again" id="returnbutton">
+ </div>
