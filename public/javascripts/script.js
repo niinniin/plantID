@@ -40,12 +40,6 @@ $(document).ready(function() {
         });
         //console.log(filters);
 
-
-
-
-
-
-
     });
 
     function checkFilters(filters, callback){
@@ -85,10 +79,28 @@ $(document).ready(function() {
 
                 });
 
+                $(document).ready(function() {
+                    $('#returnbutton').click(function() {
+                        $('#planttest').slideDown();
+                        $('#visaresult').hide();
+                        $('#returnbutton').hide();
+                    });
+                });
+
                 callback(response);
             }
         });
 
-
     };
+
 });
+
+
+
+
+
+
+
+
+
+
