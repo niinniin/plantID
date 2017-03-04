@@ -7,6 +7,7 @@ $white: #fff;
 // FONTS //
 $coiny: 'Coiny', regular;
 $pixel: 'Press Start 2P', regular;
+$roboto: 'Roboto', sans-serif;
 
 
 .main-header{
@@ -129,17 +130,33 @@ $pixel: 'Press Start 2P', regular;
 }
 
 #visaresult{
+    font-family: $roboto;
+  text-align: center;
+
+
+  h1{
+    font-size: 22px;
+  }
+
+  h2{
+    font-style: italic;
+    font-size: 15px;
+  }
 
   h3{
-    padding-bottom: 4%;
+    font-size: 16px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
   }
 
   #pictures{
     display: flex;
     justify-content: center;
+    padding-bottom: 2%;
 
     #pixelplant{
-      height: 80px;
+      height: 65px;
       width: auto;
     }
   }

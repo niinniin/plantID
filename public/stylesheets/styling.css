@@ -91,13 +91,25 @@
     border: none;
     margin-top: 2%; }
 
-#visaresult h3 {
-  padding-bottom: 4%; }
-#visaresult #pictures {
-  display: flex;
-  justify-content: center; }
-  #visaresult #pictures #pixelplant {
-    height: 80px;
-    width: auto; }
+#visaresult {
+  font-family: "Roboto", sans-serif;
+  text-align: center; }
+  #visaresult h1 {
+    font-size: 22px; }
+  #visaresult h2 {
+    font-style: italic;
+    font-size: 15px; }
+  #visaresult h3 {
+    font-size: 16px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%; }
+  #visaresult #pictures {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%; }
+    #visaresult #pictures #pixelplant {
+      height: 65px;
+      width: auto; }
 
 /*# sourceMappingURL=styling.css.map */
