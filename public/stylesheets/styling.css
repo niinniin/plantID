@@ -5,8 +5,17 @@
   border-radius: 15px;
   padding-bottom: 1%;
   padding-top: 1%; }
-  .main-header #kaktus {
-    height: 130px; }
+  .main-header #kaktus, .main-header #kaktus2 {
+    height: 160px;
+    width: auto; }
+  .main-header #kaktus2 {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); }
+  .main-header #succulent {
+    height: 100px;
+    width: auto; }
 
 #planttest {
   text-align: center;

@@ -19,7 +19,21 @@ $roboto: 'Roboto', sans-serif;
   padding-top: 1%;
 
   #kaktus{
-    height: 130px;
+    height: 160px;
+    width: auto;
+  }
+
+  #kaktus2{
+    @extend #kaktus;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  #succulent{
+    height: 100px;
+    width: auto;
   }
 }
 
@@ -161,6 +175,9 @@ $roboto: 'Roboto', sans-serif;
     }
   }
 }
+
+
+
 
 
 
