@@ -88,6 +88,16 @@
     background-color: #7eff61;
     border-radius: 15px;
     text-align: center;
-    border: none; }
+    border: none;
+    margin-top: 2%; }
+
+#visaresult h3 {
+  padding-bottom: 4%; }
+#visaresult #pictures {
+  display: flex;
+  justify-content: center; }
+  #visaresult #pictures #pixelplant {
+    height: 80px;
+    width: auto; }
 
 /*# sourceMappingURL=styling.css.map */

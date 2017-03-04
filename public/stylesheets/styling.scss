@@ -124,6 +124,24 @@ $pixel: 'Press Start 2P', regular;
     border-radius: 15px;
     text-align: center;
     border: none;
+    margin-top: 2%;
+  }
+}
+
+#visaresult{
+
+  h3{
+    padding-bottom: 4%;
+  }
+
+  #pictures{
+    display: flex;
+    justify-content: center;
+
+    #pixelplant{
+      height: 80px;
+      width: auto;
+    }
   }
 }
 
