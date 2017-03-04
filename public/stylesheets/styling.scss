@@ -1,0 +1,136 @@
+// COLORS //
+
+$lightgreen: #bdffb6;
+$backgroundgreen: #7eff61;
+$white: #fff;
+
+// FONTS //
+$coiny: 'Coiny', regular;
+$pixel: 'Press Start 2P', regular;
+
+
+.main-header{
+  text-align: center;
+  font-family: $pixel;
+  background-color: #bdffb6;
+  border-radius: 15px;
+  padding-bottom: 1%;
+  padding-top: 1%;
+
+  #kaktus{
+    height: 130px;
+  }
+}
+
+
+#planttest{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding-bottom: 4%;
+  font-family: $coiny;
+  float: left;
+  border: 10px solid $lightgreen;
+  background: $white;
+  position: relative;
+  width: 99%;
+
+  #choices{
+    display: block;
+    padding: 25px;
+    overflow: hidden;
+  }
+
+  #submitbutton{
+    width: 250px;
+    height: 50px;
+    color: $white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 1, 0.4);
+    font-family: $pixel;
+    font-size: 18px;
+    background-color: $backgroundgreen;
+    border-radius: 15px;
+    border: none;
+  }
+
+  .corner{
+    width: 15px;
+    position: absolute;
+    z-index: 9;
+  }
+  .tl{
+    top: -10px;
+    left: -10px;
+  }
+  .tr{
+    top: -10px;
+    right: -10px;
+  }
+  .bl{
+    bottom: -10px;
+    left: -10px;
+  }
+  .br{
+    bottom: -10px;
+    right: -10px;
+  }
+
+  .corner .a{
+    width: 5px;
+    height: 10px;
+    float: left;
+    display: block;
+    background: $white;
+  }
+  .corner .b{
+    width: 5px;
+    height: 5px;
+    float: left;
+    display: block;
+    background: $white;
+  }
+  .corner .c{
+    width: 10px;
+    height: 10px;
+    float: left;
+    display: block;
+    background: $lightgreen;
+  }
+
+  .tr .a, .tr .b,
+  .tr .c, .br .a,
+  .br .b, .br .c{
+    float: right;
+  }
+
+  .bl .a,
+  .br .a {
+    border-top: 5px solid $lightgreen;
+  }
+}
+
+#return{
+  display: flex;
+  justify-content: center;
+
+  #returnbutton{
+    width: 250px;
+    height: 50px;
+    color: $white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 1, 0.4);
+    font-family: $pixel;
+    font-size: 18px;
+    background-color: $backgroundgreen;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+  }
+}
+
+
+
+
+
+
+
+
