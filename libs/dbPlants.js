@@ -3,8 +3,7 @@
  */
 var mysql = require('mysql');
 
-console.log('test2');
-
+// deklarera anslutningsuppgifter mot databasen
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'plantApp',
@@ -13,21 +12,20 @@ var connection = mysql.createConnection({
     port: 8889
 });
 
+connection.connect(function(err){
+    if (err) {
+        console.log("Error when connected to databas");
+    }
+    else{
+        console.log("Connected to db");
+    }
+});
 
+//exportera modulen så den kan bli tillgänglig för servern.
 module.exports = {
-
+    //get plants tar två parametrar, body (från frågeformuläret) och ett callbackvärde.
     getPlants: function(body,callback){
 
-        connection.connect(function(err){
-            if (err) {
-                console.log("Error when connected to databas");
-            }
-            else{
-                console.log("Connected to db");
-            }
-        });
-
-        console.log('body length:'+ Object.keys(body).length);
 
         var where;
 
